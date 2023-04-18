@@ -1,0 +1,748 @@
+// Vitest Snapshot v1
+
+exports[`CompanyPolicy > Renders Company Policies to match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+        >
+          <div>
+            <div
+              class="StyledGrid-sc-1wofa1l-0 bySYOJ"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 dDSiKk"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 ibTKOe"
+                >
+                  <a
+                    aria-label="home"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="home"
+                    href="/"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        Home
+                         
+                      </span>
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                  />
+                  <a
+                    aria-label="Calendar"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="Calendar"
+                    href="/EmployeeDashboard/Schedule"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        Calendar
+                         
+                      </span>
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                  />
+                  <a
+                    aria-label="MyJob"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="MyJob"
+                    href="/"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        My Job
+                         
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 bqfCTq"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cdHUSp"
+                    >
+                       
+                       
+                    </span>
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hpCRgD"
+                    >
+                       Sales Associate 
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                  />
+                  <a
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    href="/ProfilePage"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 kobaLM"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 ebPCjN StyledAvatar-sc-1suyamb-1"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                  />
+                  <button
+                    class="StyledButton-sc-323bzc-0 kYtlmw"
+                    data-testid="logout"
+                    type="button"
+                  >
+                    <svg
+                      aria-label="Logout"
+                      class="StyledIcon-sc-ofa7kd-0 cnewlt"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13 9V2H1v20h12v-7m9-3H5m12-5 5 5-5 5"
+                        fill="none"
+                        stroke="#231F20"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 eETalo"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 fNigeM"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 jzOfgr"
+              >
+                <a
+                  class="StyledAnchor-sc-1rp7lwl-0 enCzim"
+                  href="/EmployeeDashboard"
+                >
+                  My Job
+                </a>
+                <span
+                  class="StyledText-sc-1sadyjn-0 hpCRgD"
+                >
+                    
+                  &gt;
+                    
+                </span>
+                <a
+                  class="StyledAnchor-sc-1rp7lwl-0 enCzim"
+                  href="/EmployeeDashboard/CompanyPolicy"
+                >
+                  Company Policies
+                </a>
+              </div>
+              <h1>
+                  Company Policy
+              </h1>
+              <div
+                class="StyledGrid-sc-1wofa1l-0 eoFbLA"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/health.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="healthBox"
+                    >
+                      Health and Safety
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/schedule.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="scheduleBox"
+                    >
+                      Schedule
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/conduct.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="employeeBox"
+                    >
+                      Employee Code of Conduct
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/opportunity.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="equalBox"
+                    >
+                      Equal Opportunity
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/leave.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="leaveBox"
+                    >
+                      Leave of Absence
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/phone.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="contactBox"
+                    >
+                      Contact and Address
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/attendance.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="attendanceBox"
+                    >
+                      Attendance
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/info.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="aboutBox"
+                    >
+                      About the Company
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 fWaToK"
+                    tabindex="0"
+                  >
+                    <img
+                      class="StyledImage-sc-ey4zx9-0 gosVQo"
+                      src="/src/assets/images/drug.png"
+                    />
+                    <span
+                      class="StyledText-sc-1sadyjn-0 bZLsdn"
+                      data-testid="drugBox"
+                    >
+                      Substance Abuse
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+      >
+        <div>
+          <div
+            class="StyledGrid-sc-1wofa1l-0 bySYOJ"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 dDSiKk"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 ibTKOe"
+              >
+                <a
+                  aria-label="home"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="home"
+                  href="/"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      Home
+                       
+                    </span>
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                />
+                <a
+                  aria-label="Calendar"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="Calendar"
+                  href="/EmployeeDashboard/Schedule"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      Calendar
+                       
+                    </span>
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                />
+                <a
+                  aria-label="MyJob"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="MyJob"
+                  href="/"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      My Job
+                       
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 bqfCTq"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 cdHUSp"
+                  >
+                     
+                     
+                  </span>
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hpCRgD"
+                  >
+                     Sales Associate 
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                />
+                <a
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  href="/ProfilePage"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 kobaLM"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 ebPCjN StyledAvatar-sc-1suyamb-1"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                />
+                <button
+                  class="StyledButton-sc-323bzc-0 kYtlmw"
+                  data-testid="logout"
+                  type="button"
+                >
+                  <svg
+                    aria-label="Logout"
+                    class="StyledIcon-sc-ofa7kd-0 cnewlt"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 9V2H1v20h12v-7m9-3H5m12-5 5 5-5 5"
+                      fill="none"
+                      stroke="#231F20"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="StyledBox-sc-13pk1d4-0 eETalo"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 fNigeM"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 jzOfgr"
+            >
+              <a
+                class="StyledAnchor-sc-1rp7lwl-0 enCzim"
+                href="/EmployeeDashboard"
+              >
+                My Job
+              </a>
+              <span
+                class="StyledText-sc-1sadyjn-0 hpCRgD"
+              >
+                  
+                &gt;
+                  
+              </span>
+              <a
+                class="StyledAnchor-sc-1rp7lwl-0 enCzim"
+                href="/EmployeeDashboard/CompanyPolicy"
+              >
+                Company Policies
+              </a>
+            </div>
+            <h1>
+                Company Policy
+            </h1>
+            <div
+              class="StyledGrid-sc-1wofa1l-0 eoFbLA"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/health.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="healthBox"
+                  >
+                    Health and Safety
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/schedule.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="scheduleBox"
+                  >
+                    Schedule
+                  </span>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/conduct.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="employeeBox"
+                  >
+                    Employee Code of Conduct
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/opportunity.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="equalBox"
+                  >
+                    Equal Opportunity
+                  </span>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/leave.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="leaveBox"
+                  >
+                    Leave of Absence
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/phone.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="contactBox"
+                  >
+                    Contact and Address
+                  </span>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/attendance.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="attendanceBox"
+                  >
+                    Attendance
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/info.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="aboutBox"
+                  >
+                    About the Company
+                  </span>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 fWaToK"
+                  tabindex="0"
+                >
+                  <img
+                    class="StyledImage-sc-ey4zx9-0 gosVQo"
+                    src="/src/assets/images/drug.png"
+                  />
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bZLsdn"
+                    data-testid="drugBox"
+                  >
+                    Substance Abuse
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,156 @@
+// Vitest Snapshot v1
+
+exports[`HomeBox > Renders HomeBox to match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 eFkftZ"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 ewQYxc"
+        >
+          <img
+            alt="overclock_logo"
+            class="StyledImage-sc-ey4zx9-0 fiharU"
+            src="/src/assets/images/logo.png"
+          />
+        </div>
+        <div
+          class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+        />
+        <span
+          class="StyledText-sc-1sadyjn-0 ijIcEi"
+        >
+          Workplace Management Accelerated
+        </span>
+        <div
+          class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+        />
+        <a
+          class="StyledAnchor-sc-1rp7lwl-0 hklEFB"
+          href="/Login"
+        >
+          <button
+            class="StyledButton-sc-323bzc-0 jMQIxB"
+            data-testid="getStartedButton"
+            type="button"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 kObcQa"
+            >
+              <br />
+              <span
+                class="StyledText-sc-1sadyjn-0 cKTRLX"
+              >
+                Get Started
+              </span>
+              <br />
+            </div>
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="StyledBox-sc-13pk1d4-0 eFkftZ"
+    >
+      <div
+        class="StyledBox-sc-13pk1d4-0 ewQYxc"
+      >
+        <img
+          alt="overclock_logo"
+          class="StyledImage-sc-ey4zx9-0 fiharU"
+          src="/src/assets/images/logo.png"
+        />
+      </div>
+      <div
+        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+      />
+      <span
+        class="StyledText-sc-1sadyjn-0 ijIcEi"
+      >
+        Workplace Management Accelerated
+      </span>
+      <div
+        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+      />
+      <a
+        class="StyledAnchor-sc-1rp7lwl-0 hklEFB"
+        href="/Login"
+      >
+        <button
+          class="StyledButton-sc-323bzc-0 jMQIxB"
+          data-testid="getStartedButton"
+          type="button"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 kObcQa"
+          >
+            <br />
+            <span
+              class="StyledText-sc-1sadyjn-0 cKTRLX"
+            >
+              Get Started
+            </span>
+            <br />
+          </div>
+        </button>
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

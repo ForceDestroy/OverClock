@@ -1,0 +1,110 @@
+name: Mobile Client CI
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "mobile/**"
+      - ".github/workflows/mobile.yml"
+  pull_request:
+    branches:
+      - "main"
+      - "Maryam/**"
+      - "Dushaani/**"
+      - "Ziad/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'beta'
+      
+      - name: import mobile network secrets
+        working-directory: ./mobile/assets
+        env:
+          NETWORK_STRING: ${{ secrets.MOBILE_NETWORK_RESOURCES }}
+        run: |
+          echo $NETWORK_STRING > network_resources.json
+      
+      - name: Import TLS Key
+        working-directory: ./mobile/assets
+        env:
+          TLS_KEY: ${{secrets.TLS_KEY}}
+        run: |
+          echo $TLS_KEY > TLSKey.txt
+          truncate -s-1 TLSKey.txt
+  
+      - name: Install dependencies
+        working-directory: mobile
+        run: flutter pub get
+
+      - name: Analyze project source
+        working-directory: mobile
+        run: flutter analyze
+
+      - name: Install lcov 
+        working-directory: mobile
+        run: sudo apt-get install lcov -y
+
+      - name: Run tests 
+        working-directory: mobile
+        run: flutter test --coverage
+
+      - name: Ignore printing_package from coverage report 
+        working-directory: mobile
+        run: lcov --remove coverage/lcov.info 'lib/printing_packages/*' -o coverage/new_lcov.info
+
+      - name: Display coverage 
+        working-directory: mobile
+        run: genhtml coverage/new_lcov.info -o coverage/html
+
+      - name: Import TLS key
+        working-directory: ./mobile/assets
+        env:
+          TLS_Key: ${{ secrets.TLSKey }}
+        run: |
+          echo $TLS_Key > TLSKey.txt
+  
+  
+  # integration_tests:
+  #   runs-on: macos-latest
+  #   steps:
+  #     - name: checkout
+  #       uses: actions/checkout@v3
+  #     - uses: subosito/flutter-action@v2
+  #       with:
+  #         channel: 'beta'    
+  #     - uses: actions/setup-java@v3
+  #       with:
+  #         distribution: 'zulu'
+  #         java-version: '11'
+
+  #     - name: import mobile network secrets
+  #       working-directory: ./mobile/assets
+  #       env:
+  #         NETWORK_STRING: ${{ secrets.MOBILE_NETWORK_RESOURCES }}
+  #       run: |
+  #         echo $NETWORK_STRING > network_resources.json
+
+  #     - name: Install dependencies
+  #       working-directory: mobile
+  #       run: flutter pub get
+
+  #     - name: Analyze project source
+  #       working-directory: mobile
+  #       run: flutter analyze
+
+  #     - name: run tests
+  #       uses: reactivecircus/android-emulator-runner@v2
+  #       with:
+  #         api-level: 29
+  #         arch: x86_64
+  #         profile: Nexus 6
+  #         script: (cd mobile;flutter test integration_test/)
+
+      

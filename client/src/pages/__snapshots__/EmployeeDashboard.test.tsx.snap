@@ -1,0 +1,1032 @@
+// Vitest Snapshot v1
+
+exports[`EmployeeDashboard > Renders Employee Dashboard to match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+        >
+          <div>
+            <div
+              class="StyledGrid-sc-1wofa1l-0 bySYOJ"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 dDSiKk"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 ibTKOe"
+                >
+                  <a
+                    aria-label="home"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="home"
+                    href="/"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        Home
+                         
+                      </span>
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                  />
+                  <a
+                    aria-label="Calendar"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="Calendar"
+                    href="/EmployeeDashboard/Schedule"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        Calendar
+                         
+                      </span>
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                  />
+                  <a
+                    aria-label="MyJob"
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    data-testid="MyJob"
+                    href="/"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 bZqIbg"
+                    >
+                      <span
+                        class="StyledText-sc-1sadyjn-0 cMFmcc"
+                      >
+                         
+                        My Job
+                         
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 bqfCTq"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cdHUSp"
+                    >
+                       
+                       
+                    </span>
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hpCRgD"
+                    >
+                       Sales Associate 
+                    </span>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                  />
+                  <a
+                    class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                    href="/ProfilePage"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 kobaLM"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 ebPCjN StyledAvatar-sc-1suyamb-1"
+                      />
+                    </div>
+                  </a>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                  />
+                  <button
+                    class="StyledButton-sc-323bzc-0 kYtlmw"
+                    data-testid="logout"
+                    type="button"
+                  >
+                    <svg
+                      aria-label="Logout"
+                      class="StyledIcon-sc-ofa7kd-0 cnewlt"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13 9V2H1v20h12v-7m9-3H5m12-5 5 5-5 5"
+                        fill="none"
+                        stroke="#231F20"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 eETalo"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 fNigeM"
+            >
+              <h1>
+                  Mode Durgaa
+              </h1>
+              <div
+                class="StyledGrid-sc-1wofa1l-0 cZFCrB"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 khDYLr"
+                >
+                  <table
+                    class="StyledTable-sc-1m3u5g-6 YPHTu StyledDataTable-sc-xrlyjm-0 hmFzTO"
+                    data-testid="employeeDataTable"
+                  >
+                    <thead
+                      class="StyledTable__StyledTableHeader-sc-1m3u5g-4 StyledDataTable__StyledDataTableHeader-sc-xrlyjm-4 khLQeI"
+                    >
+                      <tr
+                        class="StyledTable__StyledTableRow-sc-1m3u5g-2 StyledDataTable__StyledDataTableRow-sc-xrlyjm-2 hSlrxd"
+                      >
+                        <th
+                          class="StyledTable__StyledTableCell-sc-1m3u5g-0 bLGA-dP StyledDataTable__StyledDataTableCell-sc-xrlyjm-6 dsFDzi"
+                          scope="col"
+                        >
+                          <div
+                            class="StyledBox-sc-13pk1d4-0 fqUnkf"
+                          >
+                            <span
+                              class="StyledText-sc-1sadyjn-0 hpCRgD"
+                            >
+                              Announcements
+                            </span>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="StyledTable__StyledTableBody-sc-1m3u5g-3 StyledDataTable__StyledDataTableBody-sc-xrlyjm-3 lmVuVk"
+                      tabindex="0"
+                    />
+                  </table>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 mGbSn"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 khDYLr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      Log your daily hours
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="logHoursButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            Log Hours
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      View your time off
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="viewTimeOffButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            View Time Off
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      Access your payslips
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="accessPayslipsButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            Access Payslips
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      Send a custom request
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="sendRequestButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            Send Request
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 mGbSn"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 khDYLr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      View your schedule
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="viewScheduleButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            View Schedule
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      View company policies and info
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="viewPoliciesButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            View Policies
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      Access the job referal program
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="accessReferalsButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            Access Referals
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hMihrX"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hjFrcE"
+                    >
+                      View your profile
+                    </span>
+                    <div
+                      class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                    />
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jyKTPA"
+                        data-testid="viewProfileButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cIFAjm"
+                          >
+                            View Profile
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox-sc-13pk1d4-0 bfqKtQ"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 bsRcKz"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+      >
+        <div>
+          <div
+            class="StyledGrid-sc-1wofa1l-0 bySYOJ"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 dDSiKk"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 ibTKOe"
+              >
+                <a
+                  aria-label="home"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="home"
+                  href="/"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      Home
+                       
+                    </span>
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                />
+                <a
+                  aria-label="Calendar"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="Calendar"
+                  href="/EmployeeDashboard/Schedule"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      Calendar
+                       
+                    </span>
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 eYHYac"
+                />
+                <a
+                  aria-label="MyJob"
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  data-testid="MyJob"
+                  href="/"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 bZqIbg"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 cMFmcc"
+                    >
+                       
+                      My Job
+                       
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 bqfCTq"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 cdHUSp"
+                  >
+                     
+                     
+                  </span>
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hpCRgD"
+                  >
+                     Sales Associate 
+                  </span>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                />
+                <a
+                  class="StyledAnchor-sc-1rp7lwl-0 iUqWmS"
+                  href="/ProfilePage"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 kobaLM"
+                  >
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 ebPCjN StyledAvatar-sc-1suyamb-1"
+                    />
+                  </div>
+                </a>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 lbllaT"
+                />
+                <button
+                  class="StyledButton-sc-323bzc-0 kYtlmw"
+                  data-testid="logout"
+                  type="button"
+                >
+                  <svg
+                    aria-label="Logout"
+                    class="StyledIcon-sc-ofa7kd-0 cnewlt"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13 9V2H1v20h12v-7m9-3H5m12-5 5 5-5 5"
+                      fill="none"
+                      stroke="#231F20"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="StyledBox-sc-13pk1d4-0 eETalo"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 fNigeM"
+          >
+            <h1>
+                Mode Durgaa
+            </h1>
+            <div
+              class="StyledGrid-sc-1wofa1l-0 cZFCrB"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 khDYLr"
+              >
+                <table
+                  class="StyledTable-sc-1m3u5g-6 YPHTu StyledDataTable-sc-xrlyjm-0 hmFzTO"
+                  data-testid="employeeDataTable"
+                >
+                  <thead
+                    class="StyledTable__StyledTableHeader-sc-1m3u5g-4 StyledDataTable__StyledDataTableHeader-sc-xrlyjm-4 khLQeI"
+                  >
+                    <tr
+                      class="StyledTable__StyledTableRow-sc-1m3u5g-2 StyledDataTable__StyledDataTableRow-sc-xrlyjm-2 hSlrxd"
+                    >
+                      <th
+                        class="StyledTable__StyledTableCell-sc-1m3u5g-0 bLGA-dP StyledDataTable__StyledDataTableCell-sc-xrlyjm-6 dsFDzi"
+                        scope="col"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 fqUnkf"
+                        >
+                          <span
+                            class="StyledText-sc-1sadyjn-0 hpCRgD"
+                          >
+                            Announcements
+                          </span>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="StyledTable__StyledTableBody-sc-1m3u5g-3 StyledDataTable__StyledDataTableBody-sc-xrlyjm-3 lmVuVk"
+                    tabindex="0"
+                  />
+                </table>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 mGbSn"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 khDYLr"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    Log your daily hours
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="logHoursButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          Log Hours
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    View your time off
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="viewTimeOffButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          View Time Off
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    Access your payslips
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="accessPayslipsButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          Access Payslips
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    Send a custom request
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="sendRequestButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          Send Request
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 mGbSn"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 khDYLr"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    View your schedule
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="viewScheduleButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          View Schedule
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    View company policies and info
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="viewPoliciesButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          View Policies
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    Access the job referal program
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="accessReferalsButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          Access Referals
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hMihrX"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hjFrcE"
+                  >
+                    View your profile
+                  </span>
+                  <div
+                    class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                  />
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 iyaYCL"
+                  >
+                    <button
+                      class="StyledButton-sc-323bzc-0 jyKTPA"
+                      data-testid="viewProfileButton"
+                      type="button"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                      >
+                        <br />
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cIFAjm"
+                        >
+                          View Profile
+                        </span>
+                        <br />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="StyledBox-sc-13pk1d4-0 bfqKtQ"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 bsRcKz"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

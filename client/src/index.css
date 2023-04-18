@@ -1,0 +1,8 @@
+body, html {
+    font-family: Quicksand;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format('truetype');
+}

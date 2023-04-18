@@ -1,0 +1,320 @@
+// Vitest Snapshot v1
+
+exports[`LoginBox > Renders LoginBox to match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eETalo"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 jaXBUd"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 eEByvQ"
+              >
+                <h1
+                  class="StyledHeading-sc-1rdh4aw-0 ehosPX"
+                >
+                  Login
+                </h1>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <img
+                  alt="login_image"
+                  class="StyledImage-sc-ey4zx9-0 iAcpfl"
+                  src="/src/assets/images/loginImage.png"
+                />
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 bfWDjh"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 emSMsc"
+                  >
+                    <form>
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 iSXGxe"
+                      >
+                        <div
+                          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kZzThM"
+                        >
+                          <div
+                            class="StyledTextInput__StyledIcon-sc-1x30a0s-3 hTpbjn"
+                          >
+                            <svg
+                              aria-label="MailOption"
+                              class="StyledIcon-sc-ofa7kd-0 kKhdEN"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M1 4h22v16H1V4zm0 1 11 8.5L23 5"
+                                fill="none"
+                                stroke="#000"
+                                stroke-width="2"
+                              />
+                            </svg>
+                          </div>
+                          <input
+                            autocomplete="off"
+                            class="StyledTextInput-sc-1x30a0s-0 bISior"
+                            placeholder="Email"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 gBxcJd"
+                      >
+                        <div
+                          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kZzThM"
+                        >
+                          <div
+                            class="StyledTextInput__StyledIcon-sc-1x30a0s-3 hTpbjn"
+                          >
+                            <svg
+                              aria-label="Key"
+                              class="StyledIcon-sc-ofa7kd-0 kKhdEN"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 13v3h3v3h3v2l2 2h5v-4L12.74 8.74C12.91 8.19 13 7.6 13 7c0-3.31-2.69-6-6-6S1 3.69 1 7a6.005 6.005 0 0 0 8.47 5.47L10 13zM6 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+                                fill="none"
+                                stroke="#000"
+                                stroke-width="2"
+                              />
+                            </svg>
+                          </div>
+                          <input
+                            autocomplete="off"
+                            class="StyledTextInput-sc-1x30a0s-0 bISior"
+                            placeholder="Password"
+                            type="password"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 fvAWnZ"
+                      >
+                        <button
+                          class="StyledButton-sc-323bzc-0 jMQIxB"
+                          data-testid="loginButton"
+                          type="button"
+                        >
+                          <div
+                            class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                          >
+                            <br />
+                            <span
+                              class="StyledText-sc-1sadyjn-0 cKTRLX"
+                            >
+                              Log In
+                            </span>
+                            <br />
+                          </div>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 eETalo"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 jaXBUd"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 eEByvQ"
+            >
+              <h1
+                class="StyledHeading-sc-1rdh4aw-0 ehosPX"
+              >
+                Login
+              </h1>
+              <div
+                class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+              />
+              <img
+                alt="login_image"
+                class="StyledImage-sc-ey4zx9-0 iAcpfl"
+                src="/src/assets/images/loginImage.png"
+              />
+              <div
+                class="StyledBox__StyledBoxGap-sc-13pk1d4-1 qdAYv"
+              />
+              <div
+                class="StyledBox-sc-13pk1d4-0 bfWDjh"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 emSMsc"
+                >
+                  <form>
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 iSXGxe"
+                    >
+                      <div
+                        class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kZzThM"
+                      >
+                        <div
+                          class="StyledTextInput__StyledIcon-sc-1x30a0s-3 hTpbjn"
+                        >
+                          <svg
+                            aria-label="MailOption"
+                            class="StyledIcon-sc-ofa7kd-0 kKhdEN"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M1 4h22v16H1V4zm0 1 11 8.5L23 5"
+                              fill="none"
+                              stroke="#000"
+                              stroke-width="2"
+                            />
+                          </svg>
+                        </div>
+                        <input
+                          autocomplete="off"
+                          class="StyledTextInput-sc-1x30a0s-0 bISior"
+                          placeholder="Email"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 gBxcJd"
+                    >
+                      <div
+                        class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kZzThM"
+                      >
+                        <div
+                          class="StyledTextInput__StyledIcon-sc-1x30a0s-3 hTpbjn"
+                        >
+                          <svg
+                            aria-label="Key"
+                            class="StyledIcon-sc-ofa7kd-0 kKhdEN"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M10 13v3h3v3h3v2l2 2h5v-4L12.74 8.74C12.91 8.19 13 7.6 13 7c0-3.31-2.69-6-6-6S1 3.69 1 7a6.005 6.005 0 0 0 8.47 5.47L10 13zM6 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+                              fill="none"
+                              stroke="#000"
+                              stroke-width="2"
+                            />
+                          </svg>
+                        </div>
+                        <input
+                          autocomplete="off"
+                          class="StyledTextInput-sc-1x30a0s-0 bISior"
+                          placeholder="Password"
+                          type="password"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="StyledBox-sc-13pk1d4-0 fvAWnZ"
+                    >
+                      <button
+                        class="StyledButton-sc-323bzc-0 jMQIxB"
+                        data-testid="loginButton"
+                        type="button"
+                      >
+                        <div
+                          class="StyledBox-sc-13pk1d4-0 dfdKQJ"
+                        >
+                          <br />
+                          <span
+                            class="StyledText-sc-1sadyjn-0 cKTRLX"
+                          >
+                            Log In
+                          </span>
+                          <br />
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

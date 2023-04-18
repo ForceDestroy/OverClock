@@ -1,0 +1,164 @@
+// Vitest Snapshot v1
+
+exports[`NotFound > Renders Not Found to match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eETalo"
+          >
+            <div
+              class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 hwtiCx"
+              >
+                <span
+                  class="StyledText-sc-1sadyjn-0 jEBSos"
+                >
+                  This page does not exist
+                </span>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 iNDmPr"
+                >
+                  <img
+                    alt="404"
+                    src="/src/assets/gif/cry.gif"
+                  />
+                </div>
+                <div
+                  class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+                />
+                <div
+                  class="StyledBox-sc-13pk1d4-0 jzOfgr"
+                >
+                  <a
+                    class="StyledButton-sc-323bzc-0 byZKYO"
+                    data-testid="goHomeButton"
+                    href="/"
+                  >
+                    Go Home
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 eETalo"
+        >
+          <div
+            class="StyledGrommet-sc-19lkkz7-0 jGVJhU"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 hwtiCx"
+            >
+              <span
+                class="StyledText-sc-1sadyjn-0 jEBSos"
+              >
+                This page does not exist
+              </span>
+              <div
+                class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+              />
+              <div
+                class="StyledBox-sc-13pk1d4-0 iNDmPr"
+              >
+                <img
+                  alt="404"
+                  src="/src/assets/gif/cry.gif"
+                />
+              </div>
+              <div
+                class="StyledBox__StyledBoxGap-sc-13pk1d4-1 ceHRnz"
+              />
+              <div
+                class="StyledBox-sc-13pk1d4-0 jzOfgr"
+              >
+                <a
+                  class="StyledButton-sc-323bzc-0 byZKYO"
+                  data-testid="goHomeButton"
+                  href="/"
+                >
+                  Go Home
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

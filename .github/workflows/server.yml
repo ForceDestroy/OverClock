@@ -1,0 +1,84 @@
+name: Server CI
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "Server/**"
+      - "ServerTests/**"
+      - ".github/workflows/server.yml"
+  pull_request:
+    branches:
+      - "main"
+      - "Rayan/**"
+      - "Andrew/**"
+      - "Shawn/**"
+
+jobs:
+  build:
+    name: server test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
+      - name: Install Report Generator
+        run: dotnet tool install -g dotnet-reportgenerator-globaltool
+      - name: Restore dependencies
+        working-directory: ./ServerTests
+        run: |
+          dotnet restore ServerTests.csproj
+      - name: Build
+        working-directory: ./ServerTests
+        run: |
+          dotnet build --no-restore
+
+      - name: Import Encryption Key
+        working-directory: /home/runner/work/SOEN490/SOEN490/ServerTests/bin/Debug/net6.0/
+        env:
+          ENCRYPTION_KEY: ${{secrets.ENCRYPTION_KEY}}
+        run: |
+          echo $ENCRYPTION_KEY > EncryptionKey.txt
+          truncate -s-1 EncryptionKey.txt
+
+      - name: Import TLS Key
+        working-directory: /home/runner/work/SOEN490/SOEN490/ServerTests/bin/Debug/net6.0/
+        env:
+          TLS_KEY: ${{secrets.TLS_KEY}}
+        run: |
+          echo $TLS_KEY > TLSKey.txt
+          truncate -s-1 TLSKey.txt
+
+      - name: Import Database Connection String
+        working-directory: /home/runner/work/SOEN490/SOEN490/ServerTests/bin/Debug/net6.0/
+        env:
+          DATABASE_CONNECTION_STRING: ${{ secrets.DATABASE_CONNECTION_STRING }}
+        run: |
+          echo $DATABASE_CONNECTION_STRING > DbConnectionString.txt
+
+      - name: Import Test Database Connection String
+        working-directory: /home/runner/work/SOEN490/SOEN490/ServerTests/bin/Debug/net6.0/
+        env:
+          TEST_DATABASE_CONNECTION_STRING: ${{ secrets.TEST_DATABASE_CONNECTION_STRING }}
+        run: |
+          echo $TEST_DATABASE_CONNECTION_STRING > TestDbConnectionString.txt
+
+      - name: Test
+        working-directory: ServerTests
+        run: |
+          dotnet test --no-build --collect:"XPlat Code Coverage" --verbosity normal
+      - name: Generate Report
+        working-directory: ServerTests
+        run: |
+          cd TestResults
+          cd "$(\ls -1dt ./*/ | head -n 1)"
+          reportgenerator -reports:"coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
+      - name: Uploading Arficact
+        uses: actions/upload-artifact@v2
+        with:
+          name: testrun-result
+          path: ServerTests/TestResults
